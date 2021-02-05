@@ -3,3 +3,4 @@
 *.jpeg
 *.JPG 
 *Copy
+.DS_Store
