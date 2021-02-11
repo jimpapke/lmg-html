@@ -4,84 +4,27 @@
     margin: 0px auto;
 }
 
-#inhalt {
-  padding-left: 30px;
-}
+
 
 p {
-    color: black;
+    color: royalblue;
     font-size: large;
+    text-decoration: underline;
+    font-size: x-large;
+    
 
   }
 
 
 h1 {
-    color: cornflowerblue;
-    padding-left: 30px;
+    color: royalblue;
     font-size: xx-large;
 }
 
 h2 {
     color: royalblue;
-    padding-left: 30px;
     font-size: x-large;
 }
-
-#contactaddresstext { 
-  padding: 0px 0px 0px 30px;
-}
-
-#titel p {
-    font-size: 120px;
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-    }
-
-#bild_jim img {
-    width: 250px;
-    float: left;
-    padding-left: 30px;  
-  }
-
-#bild_pinguin img {
-    width: 600px;
-
-}
-
-#Kontakt { 
-    padding: 0px 300px 0px 0px;
-    float: right; 
-}
-
-#lebenslauf
-    {
-      padding: 300px 0px 3px 30px;
-    }
-
-padding oben rechts unten links
-
-.schulisches  {
-    font-size: 30px;
-}
-
-.überschrift {
-    font-size: 30px;
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-
-}
-
-.kontakt-text {
-    font-size: small;
-    text-align: right; 
-    color:darkcyan;
-
-}
-
-
-
 
 ul {
     list-style-type: none;
@@ -172,11 +115,11 @@ ul {
 float: right
     }
 
-#aboutme {
-      padding-left: 30px;
-    }
 
-li {
-  font-size: large;
-  color: blue;
+#photos img {
+    width: 100%;
+}
+
+#inhalt {
+    padding-left: 30px;
 }

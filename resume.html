@@ -5,20 +5,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Jim Papke - Resume</title>
-        <link href="styles.css" rel="stylesheet" 
+        <link href="styles.css" rel="stylesheet" >
     </head>
     
     <body>
-    <div id="menubar">
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="other.html">Other</a></li>
-        <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-
-
+      <header>
+        <nav class="navbar">
+    
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li class="dropdown" style="height: 50px;">
+              <button class="dropbtn">
+                <a href="other.html">Other</a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <ul class="dropdown-content">
+                <li><a href="yachts.html">Yachts</a></li>
+                <li><a href="technik.html">Tech</a></li>
+                <li><a href="books.html">Books</a></li>
+              </ul>
+            </li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
 
 
       <div id="seite" >
@@ -37,7 +49,7 @@
         <div id="inhalt">
     
        <div id="bild_jim">
-         <img src="IMG_9203.jpeg">
+         <img src="/Bilder/IMG_9203.jpeg">
          </div>
 
     
