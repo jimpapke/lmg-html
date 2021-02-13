@@ -2,6 +2,7 @@
     width:fit-content;
     font: icon;
     margin: 0px auto;
+  
 }
 
 #inhalt {
@@ -88,6 +89,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
     
 
   }
@@ -98,6 +100,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 30px;
   }
   
   li a:hover:not(.active) {
@@ -116,12 +119,14 @@ ul {
     
     .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 30px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     height: 22px;
+    font: icon;
+    
     }
     
     .dropdown {
@@ -179,4 +184,12 @@ float: right
 li {
   font-size: large;
   color: blue;
+}
+
+.footer {
+ background-color: lightgrey;
+ width: 100%;
+ position: relative;
+ height: 100px;
+
 }
