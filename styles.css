@@ -15,6 +15,9 @@ p {
 
   }
 
+body {
+font: icon;
+  }
 
 h1 {
     color: cornflowerblue;
@@ -71,89 +74,60 @@ padding oben rechts unten links
     color: blue;
     font-weight: bold;
     text-decoration: underline;
-
 }
 
 .kontakt-text {
     font-size: small;
     text-align: right; 
     color:darkcyan;
-
 }
 
 
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-    
-
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: royalblue;
-  }
-  
-  .active {
-    background-color: royalblue;
-  }
-
   .navbar {
-
     background-color: #333;
     height: 50px;
+    overflow: hidden;
     }
     
     .navbar a {
-    float: left;
-    font-size: 30px;
-    color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    height: 22px;
-    font: icon;
-    
+    color: white;
     }
-    
+
+    nav ul {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    nav li {
+      list-style: none;
+    }
+
+    nav a {
+      display: block;
+      float: left;
+      height: 20px;
+    }
+
     .dropdown {
     float: left;
     overflow: hidden;
     }
     
-    .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    .navbar a:hover {
+      background-color: royalblue;
+      height: 22px;
     }
-    
 
-    
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #333;
     min-width: 160px;
-    z-index: 5;
     width: 60px;
-  
+    margin-top: 50px;
     }
     
     .dropdown-content a {
@@ -166,7 +140,7 @@ ul {
     }
     
     .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: royalblue;
     }
     
     .dropdown:hover .dropdown-content {
@@ -191,5 +165,5 @@ li {
  width: 100%;
  position: relative;
  height: 100px;
-
+ font-size: medium;
 }
