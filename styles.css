@@ -18,23 +18,22 @@
 }
 
 #home_inhalt ul li{
-  padding-left: 30px;
   font-size: x-large;
   list-style: none;
 }
 
 p {
-  color: #2D3142;
+  color: #284b63;
   font-size: medium;
 }
 
 body {
-  font: icon;
-  background-color: #BFC0C0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
 }
 
 h1 {
-  color: #4F5D75;
+  color: #275DAD;
   padding-left: 30px;
   font-size: 48px; 
   text-decoration: underline;
@@ -43,7 +42,7 @@ h1 {
 }
 
 h2 {
-  color:#4F5D75;
+  color:#275DAD;
   padding-left: 30px;
   font-size: x-large;
 }
@@ -84,7 +83,7 @@ padding oben rechts unten links .schulisches {
 
 .überschrift {
   font-size: 20px;
-  color: blue;
+  color: #275DAD;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -163,46 +162,38 @@ nav a {
   float: right;
 }
 
-#aboutme li{
-  padding-left: 30px;
+#aboutme li {
   font-size: medium;
+  color: #8d9fb8;
 }
 
 li {
   font-size: large;
-  color: blue;
+  color: #4F5D75;;
 }
-
-
-
-
 
 form {
-  width: fit-content;
-  margin: 0px auto;
+  width: 100%;
 }
 
-form ul {
-  list-style: none;
-  padding: 5px;
-}
 form li {
-  margin-top: 20px;
+list-style-type: none;
+padding-right: 80px;
 }
 
-
-label {
-  display: inline-block;
-  text-align: left;
-  width: 600px;
-}
-
-textarea {
- padding-right: 100px;
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #4F5D75;;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 .footer {
-  background-color: #4F5D75;
+  background-color: #d9d9d9;
   width: 100%;
   position: absolute;
     position: relative;
@@ -210,15 +201,21 @@ textarea {
 }
 #footer_contact {
   text-align: center;
-  font-size: large;
+  font-size: x-large;
   padding-top: 20px;
+  color: white;
 }
 #footer_span {
   text-align: center;
   padding-top: 20px;
+  color: white;
+  font-size: large;
 }
 #footer_picture_left img {
   width: 50px;
   align-content: flex-start;
 }
 
+#seite img {
+width: 100%
+}
