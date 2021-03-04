@@ -4,20 +4,16 @@
 
 #seite {
   width: fit-content;
-  margin: 0px auto;
-}
-
-#inhalt {
+  margin-top: 75px; /* muss größer als 50px hoch sein, da navbar 50px hoch */
   padding-left: 30px;
-  
 }
 
-#home_inhalt p{
+#home_seite p {
   padding-left: 30px;
   font-size: x-large;
 }
 
-#home_inhalt ul li{
+#home_seite ul li{
   font-size: x-large;
   list-style: none;
 }
@@ -37,7 +33,7 @@ h1 {
   padding-left: 30px;
   font-size: 48px; 
   text-decoration: underline;
-    text-decoration-color: #EF8354;
+  text-decoration-color: #EF8354;
 
 }
 
@@ -77,7 +73,9 @@ h2 {
   padding: 300px 0px 3px 30px;
 }
 
-padding oben rechts unten links .schulisches {
+padding oben rechts unten links
+
+.schulisches {
   font-size: 30px;
 }
 
@@ -98,8 +96,14 @@ padding oben rechts unten links .schulisches {
 .navbar {
   background-color: #4F5D75;
   height: 50px;
-  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999; /* z-layer des Elements, damit das Element immer im Vordergrund steht*/
 }
+
 
 .navbar a {
   padding: 14px 16px;
@@ -189,7 +193,9 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
+  font: icon;
+  font-size: large;
+  resize: unset;
 }
 
 .footer {
